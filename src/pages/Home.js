@@ -1,5 +1,6 @@
 import React from "react";
 import {UncontrolledCarousel} from "reactstrap";
+import Courses from "./Courses";
 
 const carouselItems = [
     {
@@ -19,3 +20,5 @@ export const Home = (props) => {
 
     );
 }
+
+export default Home;

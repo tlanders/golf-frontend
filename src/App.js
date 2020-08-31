@@ -11,7 +11,9 @@ import {
     NavLink,
     NavbarToggler
 } from 'reactstrap';
-import {Home} from "./pages/Home";
+import Home from "./pages/Home";
+import Courses from "./pages/Courses";
+import Scores from "./pages/Scores";
 
 class App extends React.Component {
   constructor(props) {
@@ -48,6 +50,8 @@ class App extends React.Component {
             </Collapse>
           </Navbar>
           <Home/>
+          <Courses/>
+          <Scores/>
         </div>
     );
   }
