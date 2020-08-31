@@ -14,6 +14,7 @@ import {
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Scores from "./pages/Scores";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
@@ -32,26 +33,30 @@ class App extends React.Component {
   render() {
     return (
         <div className="App">
-          <Navbar color="light" light expand="md" className={"golf-navbar"}>
-            <NavbarBrand href="/">My Golf Scores</NavbarBrand>
-            <NavbarToggler onClick={this.toggle}/>
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="mr-auto" navbar>
-                <NavItem>
-                  <NavLink href="/">Home</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/courses">Courses</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/scores">Scores</NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </Navbar>
-          <Home/>
-          <Courses/>
-          <Scores/>
+          <Router>
+            <Navbar color="light" light expand="md" className={"golf-navbar"}>
+              <NavbarBrand href="/">My Golf Scores</NavbarBrand>
+              <NavbarToggler onClick={this.toggle}/>
+              <Collapse isOpen={this.state.isOpen} navbar>
+                <Nav className="mr-auto" navbar>
+                  <NavItem>
+                    <NavLink href="/">Home</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="/courses">Courses</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="/scores">Scores</NavLink>
+                  </NavItem>
+                </Nav>
+              </Collapse>
+            </Navbar>
+            <div>
+              <Route path={'/'} exact component={Home}/>
+              <Route path={'/courses'} exact component={Courses}/>
+              <Route path={'/scores'} exact component={Scores}/>
+            </div>
+          </Router>
         </div>
     );
   }
