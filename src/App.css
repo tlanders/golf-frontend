@@ -13,6 +13,10 @@
   }
 }
 
+.hero-image {
+  width: 95%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.golf-navbar {
+  border-bottom: black solid 2px;
 }

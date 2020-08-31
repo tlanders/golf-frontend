@@ -11,6 +11,7 @@ import {
     NavLink,
     NavbarToggler
 } from 'reactstrap';
+import {Home} from "./pages/Home";
 
 class App extends React.Component {
   constructor(props) {
@@ -43,27 +44,10 @@ class App extends React.Component {
                 <NavItem>
                   <NavLink href="/scores">Scores</NavLink>
                 </NavItem>
-                {/*<UncontrolledDropdown nav inNavbar>*/}
-                {/*  <DropdownToggle nav caret>*/}
-                {/*    Options*/}
-                {/*  </DropdownToggle>*/}
-                {/*  <DropdownMenu right>*/}
-                {/*    <DropdownItem>*/}
-                {/*      Option 1*/}
-                {/*    </DropdownItem>*/}
-                {/*    <DropdownItem>*/}
-                {/*      Option 2*/}
-                {/*    </DropdownItem>*/}
-                {/*    <DropdownItem divider />*/}
-                {/*    <DropdownItem>*/}
-                {/*      Reset*/}
-                {/*    </DropdownItem>*/}
-                {/*  </DropdownMenu>*/}
-                {/*</UncontrolledDropdown>*/}
               </Nav>
-              {/*<NavbarText>Simple Text</NavbarText>*/}
             </Collapse>
           </Navbar>
+          <Home/>
         </div>
     );
   }
