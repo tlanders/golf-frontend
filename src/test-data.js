@@ -276,7 +276,7 @@ module.exports = function() {
                         hole: 3,
                         strokes: 4,
                         putts: 2,
-                        teeShot: "fairway",
+                        teeShot: "",
                         penalties: []
                     },
                     {
@@ -290,7 +290,7 @@ module.exports = function() {
                         hole: 5,
                         strokes: 5,
                         putts: 1,
-                        teeShot: "fairway",
+                        teeShot: "long",
                         penalties: ["Drop"]
                     },
                     {
@@ -319,6 +319,69 @@ module.exports = function() {
                         strokes: 4,
                         putts: 1,
                         teeShot: "short",
+                        penalties: []
+                    },
+                    {
+                        hole: 10,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 11,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 12,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: []
+                    },
+                    {
+                        hole: 13,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 14,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 15,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 16,
+                        strokes: 7,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 17,
+                        strokes: 8,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 18,
+                        strokes: 3,
+                        putts: 1,
+                        teeShot: "",
                         penalties: []
                     },
                 ]
