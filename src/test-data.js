@@ -251,7 +251,7 @@ module.exports = function() {
         ],
         scores: [
             {
-                golfer: "tlanders",
+                golfer: "test1",
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "18",
