@@ -248,6 +248,81 @@ module.exports = function() {
                     }
                 ]
             }
+        ],
+        scores: [
+            {
+                golfer: "tlanders",
+                courseKey: "eaglebend",
+                tee: "menswhite",
+                holesPlayed: "18",
+                date: 9/5/2020,
+                totalScore: 93,
+                holes: [
+                    {
+                        hole: 1,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 2,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 3,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "fairway",
+                        penalties: []
+                    },
+                    {
+                        hole: 4,
+                        strokes: 7,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 5,
+                        strokes: 5,
+                        putts: 1,
+                        teeShot: "fairway",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 6,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 7,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 8,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "right",
+                        penalties: ["Drop", "LB"]
+                    },
+                    {
+                        hole: 9,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "short",
+                        penalties: []
+                    },
+                ]
+            }
         ]
     };
 }
