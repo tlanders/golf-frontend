@@ -385,7 +385,289 @@ module.exports = function() {
                         penalties: []
                     },
                 ]
-            }
+            },
+            {
+                golfer: "test1",
+                courseKey: "eaglebend",
+                tee: "blue",
+                holesPlayed: "18",
+                date: 9/5/2020,
+                totalScore: 87,
+                holes: [
+                    {
+                        hole: 1,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 2,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 3,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: []
+                    },
+                    {
+                        hole: 4,
+                        strokes: 7,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 5,
+                        strokes: 5,
+                        putts: 1,
+                        teeShot: "long",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 6,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 7,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 8,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "right",
+                        penalties: ["Drop", "LB"]
+                    },
+                    {
+                        hole: 9,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "short",
+                        penalties: []
+                    },
+                    {
+                        hole: 10,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 11,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 12,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: []
+                    },
+                    {
+                        hole: 13,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 14,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 15,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 16,
+                        strokes: 7,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 17,
+                        strokes: 8,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 18,
+                        strokes: 3,
+                        putts: 1,
+                        teeShot: "",
+                        penalties: []
+                    },
+                ]
+            },
+            {
+                golfer: "test1",
+                courseKey: "eaglebend",
+                tee: "menswhite",
+                holesPlayed: "front9",
+                date: 9/5/2020,
+                totalScore: 43,
+                holes: [
+                    {
+                        hole: 1,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 2,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 3,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: []
+                    },
+                    {
+                        hole: 4,
+                        strokes: 7,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 5,
+                        strokes: 5,
+                        putts: 1,
+                        teeShot: "long",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 6,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 7,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 8,
+                        strokes: 6,
+                        putts: 2,
+                        teeShot: "right",
+                        penalties: ["Drop", "LB"]
+                    },
+                    {
+                        hole: 9,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "short",
+                        penalties: []
+                    },
+                ]
+            },
+            {
+                golfer: "test1",
+                courseKey: "eaglebend",
+                tee: "menswhite",
+                holesPlayed: "back9",
+                date: 9/5/2020,
+                totalScore: 47,
+                holes: [
+                    {
+                        hole: 10,
+                        strokes: 5,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["LB"]
+                    },
+                    {
+                        hole: 11,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 12,
+                        strokes: 3,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: []
+                    },
+                    {
+                        hole: 13,
+                        strokes: 6,
+                        putts: 3,
+                        teeShot: "right",
+                        penalties: []
+                    },
+                    {
+                        hole: 14,
+                        strokes: 4,
+                        putts: 2,
+                        teeShot: "",
+                        penalties: ["Drop"]
+                    },
+                    {
+                        hole: 15,
+                        strokes: 4,
+                        putts: 1,
+                        teeShot: "left",
+                        penalties: []
+                    },
+                    {
+                        hole: 16,
+                        strokes: 7,
+                        putts: 2,
+                        teeShot: "left",
+                        penalties: ["Water"]
+                    },
+                    {
+                        hole: 17,
+                        strokes: 8,
+                        putts: 3,
+                        teeShot: "left",
+                        penalties: ["OB"]
+                    },
+                    {
+                        hole: 18,
+                        strokes: 3,
+                        putts: 1,
+                        teeShot: "",
+                        penalties: []
+                    },
+                ]
+            },
         ]
     };
 }
