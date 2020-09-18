@@ -255,7 +255,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "18",
-                date: 9/5/2020,
+                date: '9/3/2020',
                 totalScore: 93,
                 holes: [
                     {
@@ -391,7 +391,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "blue",
                 holesPlayed: "18",
-                date: 9/5/2020,
+                date: '9/5/2020',
                 totalScore: 87,
                 holes: [
                     {
@@ -527,7 +527,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "front9",
-                date: 9/5/2020,
+                date: '9/5/2020',
                 totalScore: 43,
                 holes: [
                     {
@@ -600,7 +600,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "back9",
-                date: 9/5/2020,
+                date: '9/9/2020',
                 totalScore: 47,
                 holes: [
                     {

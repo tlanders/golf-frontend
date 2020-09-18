@@ -25,11 +25,10 @@ class Courses extends React.Component {
             return (
                 <div>
                     <h1>Courses</h1>
-                    <p>Loaded</p>
                     {
                         this.state.courses.map((course) => {
                             return (
-                                <p>{course.name}</p>
+                                <p key={course.key}>{course.name} {course.location}</p>
                             );
                         })
                     }
