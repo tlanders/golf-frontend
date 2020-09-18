@@ -14,7 +14,8 @@ import {
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Scores from "./pages/Scores";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import PageNotFound from "./pages/PageNotFound";
 
 class App extends React.Component {
   constructor(props) {
@@ -52,9 +53,12 @@ class App extends React.Component {
               </Collapse>
             </Navbar>
             <div>
-              <Route path={'/'} exact component={Home}/>
-              <Route path={'/courses'} exact component={Courses}/>
-              <Route path={'/scores'} exact component={Scores}/>
+              <Switch>
+                <Route path={'/'} exact component={Home}/>
+                <Route path={'/courses'} exact component={Courses}/>
+                <Route path={'/scores'} exact component={Scores}/>
+                <Route component={PageNotFound}/>
+              </Switch>
             </div>
           </Router>
         </div>

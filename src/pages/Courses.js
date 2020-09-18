@@ -28,7 +28,7 @@ class Courses extends React.Component {
                     {
                         this.state.courses.map((course) => {
                             return (
-                                <p key={course.key}>{course.name} {course.location}</p>
+                                <p key={course.key}><a href={"/courses/" + course.key}>{course.name}</a> {course.location}</p>
                             );
                         })
                     }
