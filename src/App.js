@@ -16,6 +16,7 @@ import Courses from "./pages/Courses";
 import Scores from "./pages/Scores";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound";
+import CourseDetail from "./pages/CourseDetail";
 
 class App extends React.Component {
   constructor(props) {
@@ -56,6 +57,7 @@ class App extends React.Component {
               <Switch>
                 <Route path={'/'} exact component={Home}/>
                 <Route path={'/courses'} exact component={Courses}/>
+                <Route path={'/courses/:courseKey'} exact component={CourseDetail}/>
                 <Route path={'/scores'} exact component={Scores}/>
                 <Route component={PageNotFound}/>
               </Switch>
