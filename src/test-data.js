@@ -8,6 +8,7 @@ module.exports = function() {
                 name: "Eagle Bend",
                 key: "eaglebend",
                 location: "Lawrence, KS",
+                url: "https://lawrenceks.org/lprd/eaglebend/",
                 image: "/images/eagle-bend.jpg",
                 tees: [
                     {
@@ -247,6 +248,133 @@ module.exports = function() {
                         ]
                     }
                 ]
+            },
+            {
+                name: "Lake Shawnee",
+                key: "lakeshawnee",
+                location: "Topeka, KS",
+                url: "https://lakeshawneegolf.com/",
+                image: "/images/lake-shawnee.jpg",
+                tees: [
+                    {
+                        name: "Men's White",
+                        key: "menswhite",
+                        rating: 68.1,
+                        slope: 118,
+                        distance: 5915,
+                        par: 70,
+                        holes: [
+                            {
+                                number: 1,
+                                distance: 334,
+                                par: 4,
+                                handicap: 11
+                            },
+                            {
+                                number: 2,
+                                distance: 330,
+                                par: 4,
+                                handicap: 9
+                            },
+                            {
+                                number: 3,
+                                distance: 353,
+                                par: 4,
+                                handicap: 7
+                            },
+                            {
+                                number: 4,
+                                distance: 128,
+                                par: 3,
+                                handicap: 17
+                            },
+                            {
+                                number: 5,
+                                distance: 460,
+                                par: 5,
+                                handicap: 5
+                            },
+                            {
+                                number: 6,
+                                distance: 159,
+                                par: 3,
+                                handicap: 15
+                            },
+                            {
+                                number: 7,
+                                distance: 388,
+                                par: 4,
+                                handicap: 5
+                            },
+                            {
+                                number: 8,
+                                distance: 364,
+                                par: 4,
+                                handicap: 13
+                            },
+                            {
+                                number: 9,
+                                distance: 596,
+                                par: 5,
+                                handicap: 1
+                            },
+                            {
+                                number: 10,
+                                distance: 332,
+                                par: 4,
+                                handicap: 10
+                            },
+                            {
+                                number: 11,
+                                distance: 394,
+                                par: 4,
+                                handicap: 12
+                            },
+                            {
+                                number: 12,
+                                distance: 395,
+                                par: 4,
+                                handicap: 4
+                            },
+                            {
+                                number: 13,
+                                distance: 139,
+                                par: 3,
+                                handicap: 18
+                            },
+                            {
+                                number: 14,
+                                distance: 316,
+                                par: 4,
+                                handicap: 8
+                            },
+                            {
+                                number: 15,
+                                distance: 181,
+                                par: 3,
+                                handicap: 16
+                            },
+                            {
+                                number: 16,
+                                distance: 487,
+                                par: 5,
+                                handicap: 6
+                            },
+                            {
+                                number: 17,
+                                distance: 163,
+                                par: 3,
+                                handicap: 14
+                            },
+                            {
+                                number: 18,
+                                distance: 429,
+                                par: 4,
+                                handicap: 2
+                            },
+                        ]
+                    },
+                ]
             }
         ],
         scores: [
@@ -255,7 +383,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "18",
-                date: 9/5/2020,
+                date: '9/3/2020',
                 totalScore: 93,
                 holes: [
                     {
@@ -391,7 +519,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "blue",
                 holesPlayed: "18",
-                date: 9/5/2020,
+                date: '9/5/2020',
                 totalScore: 87,
                 holes: [
                     {
@@ -527,7 +655,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "front9",
-                date: 9/5/2020,
+                date: '9/5/2020',
                 totalScore: 43,
                 holes: [
                     {
@@ -600,7 +728,7 @@ module.exports = function() {
                 courseKey: "eaglebend",
                 tee: "menswhite",
                 holesPlayed: "back9",
-                date: 9/5/2020,
+                date: '9/9/2020',
                 totalScore: 47,
                 holes: [
                     {
