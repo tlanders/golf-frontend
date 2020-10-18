@@ -13,6 +13,11 @@
   }
 }
 
+.golf-nav .material-icons {
+  font-size: 14px;
+  vert-align: bottom;
+}
+
 .hero-image {
   width: 95%;
 }
