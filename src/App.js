@@ -51,15 +51,15 @@ class App extends React.Component {
               <NavbarBrand href="/">My Golf Scores</NavbarBrand>
               <NavbarToggler onClick={this.toggle}/>
               <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="mr-auto" navbar>
+                <Nav className="golf-nav" navbar>
                   <NavItem>
-                    <NavLink href="/">Home</NavLink>
+                    <NavLink href="/"><i className="material-icons golf-nav">home</i> Home</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="/courses">Courses</NavLink>
+                    <NavLink href="/courses"><i className="material-icons golf-nav">golf_course</i> Courses</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="/scores">Scores</NavLink>
+                    <NavLink href="/scores"><i className="material-icons golf-nav">create</i> Scores</NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
