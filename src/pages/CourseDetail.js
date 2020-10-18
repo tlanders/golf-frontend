@@ -15,8 +15,11 @@ class CourseDetail extends React.Component {
             return (
                 <div>
                     <h1>Course Detail</h1>
-                    <p>Key: {this.state.courseKey}</p>
+                    <img src={course.image} className={'course-image'} alt={course.name + ' hero'}/>
+                    {/*<p>Key: {this.state.courseKey}</p>*/}
                     <p>Name: {course.name}</p>
+                    <p>Location: {course.location}</p>
+                    <p>Website: <a href={course.url} target={'blank'}>{course.url}</a></p>
                 </div>
             )
         } else {

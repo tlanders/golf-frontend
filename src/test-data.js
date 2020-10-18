@@ -10,6 +10,7 @@ module.exports = function() {
                 location: "Lawrence, KS",
                 url: "https://lawrenceks.org/lprd/eaglebend/",
                 image: "/images/eagle-bend.jpg",
+                numberOfHoles: 18,
                 tees: [
                     {
                         name: "Men's White",
@@ -255,6 +256,7 @@ module.exports = function() {
                 location: "Topeka, KS",
                 url: "https://lakeshawneegolf.com/",
                 image: "/images/lake-shawnee.jpg",
+                numberOfHoles: 18,
                 tees: [
                     {
                         name: "Men's White",
