@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import {
   Navbar,
@@ -7,7 +7,7 @@ import {
   Nav,
   Collapse,
   NavItem,
-  NavbarText,
+  // NavbarText,
     NavLink,
     NavbarToggler
 } from 'reactstrap';

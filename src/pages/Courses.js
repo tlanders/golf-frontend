@@ -1,16 +1,6 @@
 import React from "react";
 
 class Courses extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            courses: null,
-            isLoading: true
-        };
-
-        console.log(this.state.courses);
-    }
-
     render() {
         const courses = this.props.courses;
         if(!courses) {
