@@ -1,6 +1,4 @@
 import React from "react";
-import getCourses from "../api/courses";
-import Axios from "axios";
 
 class Courses extends React.Component {
     constructor(props) {
@@ -14,7 +12,8 @@ class Courses extends React.Component {
     }
 
     render() {
-        if(this.state.isLoading) {
+        const courses = this.props.courses;
+        if(!courses) {
             return (
                 <div>
                     <h1>Courses</h1>
@@ -26,7 +25,7 @@ class Courses extends React.Component {
                 <div>
                     <h1>Courses</h1>
                     {
-                        this.state.courses.map((course) => {
+                        courses.map((course) => {
                             return (
                                 <p key={course.key}><a href={"/courses/" + course.key}>{course.name}</a> {course.location}</p>
                             );
@@ -35,20 +34,6 @@ class Courses extends React.Component {
                 </div>
             );
         }
-    }
-
-    componentDidMount() {
-        // Axios.get('http://localhost:3001/courses')
-        getCourses()
-            .then(result => {
-                console.log('result=' + result.data);
-                this.setState({
-                    courses: result.data,
-                    isLoading: false
-                });
-                console.log(result.data);
-            })
-            .catch(err => console.log('axios courses get err: ', err));
     }
 }
 
