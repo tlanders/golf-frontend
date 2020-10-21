@@ -68,7 +68,7 @@ table.scorecard {
   color: white;
 }
 
-.scorecard th {
+.scorecard th, .scorecard td {
   border: black 1px solid;
   min-width: 40px;
 }
@@ -83,8 +83,4 @@ th.scorecard-row-name {
 
 th.scorecard-row-rating {
   min-width: 120px;
-}
-
-.scorecard td {
-  border: black 1px solid;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Table } from 'reactstrap';
 
 class CourseDetail extends React.Component {
     constructor(props) {
@@ -51,7 +52,7 @@ class CourseDetail extends React.Component {
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Blue</td>
+                            <th scope={'row'}>Blue</th>
                             <td>72.5 / 130.3</td>
                             <td>100</td>
                             <td>200</td>
