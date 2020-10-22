@@ -1,6 +1,7 @@
 import React from "react";
 import ScorecardHeader from "./ScorecardHeader";
 import ScorecardRow from "./ScorecardRow";
+import ParRow from "./ParRow";
 
 class Scorecard extends React.Component {
     constructor(props) {
@@ -19,6 +20,7 @@ class Scorecard extends React.Component {
                     <ScorecardHeader {...this.props}/>
                     <tbody>
                     {scorecardRows}
+                    <ParRow {...this.props}/>
                     </tbody>
                 </table>
             </div>

@@ -18,7 +18,11 @@ module.exports = function() {
                         rating: 68.9,
                         slope: 119,
                         distance: 5989,
+                        frontNineDistance: 3013,
+                        backNineDistance: 2976,
                         par: 72,
+                        frontNinePar: 36,
+                        backNinePar: 36,
                         holes: [
                             {
                                 number: 1,
@@ -136,7 +140,11 @@ module.exports = function() {
                         rating: 70.9,
                         slope: 124,
                         distance: 6542,
+                        frontNineDistance: 3330,
+                        backNineDistance: 3212,
                         par: 72,
+                        frontNinePar: 36,
+                        backNinePar: 36,
                         holes: [
                             {
                                 number: 1,
@@ -264,7 +272,11 @@ module.exports = function() {
                         rating: 68.1,
                         slope: 118,
                         distance: 5915,
+                        frontNineDistance: 5989,
+                        backNineDistance: 5989,
                         par: 70,
+                        frontNinePar: 35,
+                        backNinePar: 35,
                         holes: [
                             {
                                 number: 1,
